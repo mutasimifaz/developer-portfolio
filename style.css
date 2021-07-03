@@ -1,0 +1,25 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 45px;
+}
+h5 {
+  font-size: 22px;
+}
+.orangee {
+  color: orange;
+}
+p {
+  font-weight: 20;
+}
+section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 100%;
+}
