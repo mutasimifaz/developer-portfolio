@@ -42,3 +42,30 @@ p {
   background-repeat: no-repeat;
   background-position: right;
 }
+#baby {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  box-shadow: 10px 15px 50px salmon;
+  border-radius: 10px;
+  border-left: 10px solid;
+  border-image: linear-gradient(180deg, salmon, red);
+  border-image-slice: 1;
+}
+#stack {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  box-shadow: 10px 15px 50px salmon;
+  border-radius: 10px;
+  border-left: 10px solid;
+  border-image: linear-gradient(180deg, red, salmon);
+  border-image-slice: 1;
+}
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
