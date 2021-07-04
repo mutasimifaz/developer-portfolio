@@ -50,7 +50,7 @@ p {
   box-shadow: 10px 15px 50px salmon;
   border-radius: 10px;
   border-left: 10px solid;
-  border-image: linear-gradient(180deg, salmon, red);
+  border-image: linear-gradient(180deg, salmon, red, cyan, blue);
   border-image-slice: 1;
 }
 #stack {
@@ -61,11 +61,18 @@ p {
   box-shadow: 10px 15px 50px salmon;
   border-radius: 10px;
   border-left: 10px solid;
-  border-image: linear-gradient(180deg, red, salmon);
+  border-image: linear-gradient(180deg, olive, cyan, red, salmon);
   border-image-slice: 1;
 }
 .experience-area {
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
+  backface-visibility: inherit;
   background-position: left;
+}
+.reddish {
+  color: rgb(241, 101, 8);
+}
+footer {
+  text-align: center;
 }
