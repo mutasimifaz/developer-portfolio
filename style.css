@@ -16,6 +16,7 @@ p {
 }
 section {
   display: flex;
+  margin-bottom: 150px;
 }
 .half-width {
   width: 50%;
@@ -26,7 +27,7 @@ section {
 }
 .link-btn {
   text-decoration: none;
-  background-image: linear-gradient(salmon, tomato);
+  background-image: linear-gradient(50deg, salmon, tomato);
   color: white;
   font-weight: 700;
   padding: 10px 40px;
@@ -35,4 +36,9 @@ section {
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
